@@ -1,2 +1,2 @@
 # pythonProject2
-just starting to lern AI(deep learning)
+just starting to learn AI (deep learning)
