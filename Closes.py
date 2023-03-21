@@ -18,8 +18,8 @@ print(f'\nIMAGE PIXEL ARRAY:\n {train_images[index]}')
 
 #plt.imshow(train_images[index], cmap='Greys')
 
-train_images=train_images/255.0
-test_images=test_images/255.0
+train_images = train_images/255.0
+test_images = test_images/255.0
 
 model = tf.keras.Sequential([
     tf.keras.layers.Flatten(),
