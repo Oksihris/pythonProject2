@@ -37,7 +37,7 @@ model = tf.keras.models.Sequential([
     tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
-model.compile(loss='binary_crossentropy', optimizer=RMSprop(learning_rate=0.001), metrics=['accurancy'])
+model.compile(loss='binary_crossentropy', optimizer=RMSprop(learning_rate=0.001), metrics=['accuracy'])
 
 history = model.fit(
     train_generator,
