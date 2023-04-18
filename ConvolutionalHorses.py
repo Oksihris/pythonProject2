@@ -4,7 +4,7 @@ import numpy as np
 from keras.preprocessing import image
 from myCallback import myCallback
 from keras.optimizers import RMSprop
-import google.colab import files
+
 
 train_datagen = ImageDataGenerator(rescale = 1./255)
 test_datagen = ImageDataGenerator(rescale = 1./255)
