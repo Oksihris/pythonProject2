@@ -45,8 +45,8 @@ aa =[1,2,3]
 # for i in cycle(a):
 #     print(i)
 
-for i in repeat(1, 5):
-    print(i)
+# for i in repeat(1, 5):
+#     print(i)
 
 
 for i in count(10):
